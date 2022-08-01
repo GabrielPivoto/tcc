@@ -1,0 +1,5 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://www.saucedemo.com",
+    "chromeWebSecurity": false
+}
