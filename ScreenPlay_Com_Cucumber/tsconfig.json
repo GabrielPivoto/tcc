@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "features/**/*.ts"
+,   "features/step_definitions/sauce.steps.ts"],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
