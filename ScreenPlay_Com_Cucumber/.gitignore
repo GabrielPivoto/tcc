@@ -5,9 +5,6 @@
 node_modules
 *.log
 
-# Build artifacts
-target
-
 .github
 
 package-lock.json

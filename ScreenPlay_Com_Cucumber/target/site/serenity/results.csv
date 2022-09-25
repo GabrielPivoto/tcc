@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login com Screen Play","Login como Standard User","SUCCESS","2022-09-25T10:07:04.31-03:00[America/Bahia]","0.0","7.87"
+"Login com Screen Play","Login como Locked Out User","SUCCESS","2022-09-25T10:07:12.187-03:00[America/Bahia]","0.0","4.55"
+"Login com Screen Play","Login como Problem User","SUCCESS","2022-09-25T10:07:16.742-03:00[America/Bahia]","0.0","6.75"
+"Login com Screen Play","Login como Performance Glitch User","SUCCESS","2022-09-25T10:07:23.496-03:00[America/Bahia]","0.0","9.01"
