@@ -4,3 +4,7 @@
 # Node
 node_modules
 *.log
+
+.github
+
+package-lock.json
