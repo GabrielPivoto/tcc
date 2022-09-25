@@ -51,7 +51,7 @@ describe('Login sem Cucumber', () => {
             Ensure.that(Attribute.of(LeanPageObjects.imageTShirt).called('src'), includes(LeanPageObjects.srcimageProblem))
     ));
     
-    it('Login como Standard User', () =>
+    it('Login como Performance Glitch User', () =>
         actorCalled('performance_glitch_user').attemptsTo(
             UseAngular.disableSynchronisation(),
             Navigate.to('https://www.saucedemo.com/'),

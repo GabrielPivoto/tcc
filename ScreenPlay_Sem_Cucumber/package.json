@@ -28,7 +28,7 @@
     "@types/node": "^16.11.47",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
-    "chromedriver": "^99.0.0",
+    "chromedriver": "^105",
     "eslint": "^8.21.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login sem Cucumber","Login como Standard User","SUCCESS","2022-09-25T09:56:00.942-03:00[America/Bahia]","0.0","5.85"
+"Login sem Cucumber","Login como Locked Out User","SUCCESS","2022-09-25T09:56:06.793-03:00[America/Bahia]","0.0","3.48"
+"Login sem Cucumber","Login como Problem User","SUCCESS","2022-09-25T09:56:10.273-03:00[America/Bahia]","0.0","6.28"
+"Login sem Cucumber","Login como Performance Glitch User","SUCCESS","2022-09-25T09:56:16.555-03:00[America/Bahia]","0.0","8.75"
