@@ -1,0 +1,47 @@
+{
+  "name": "@serenity-js/serenity-js-cucumber-protractor-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "serenity-bdd update",
+    "clean": "rimraf target",
+    "test": "failsafe clean test:execute test:report",
+    "test:execute": "protractor ./protractor.conf.js",
+    "test:wip": "failsafe clean test:execute:wip test:report",
+    "test:wip:execute": "protractor ./protractor.conf.js --cucumberOpts.tags=@wip",
+    "test:report": "serenity-bdd run --features ./features",
+    "lint": "eslint --ext ts --config .eslintrc.js .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "engines": {
+    "node": "^12 || ^14 || ^16",
+    "npm": "^6 || ^7 || ^8.0.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@serenity-js/assertions": "^2.33.4",
+    "@serenity-js/console-reporter": "^2.33.4",
+    "@serenity-js/core": "^2.33.4",
+    "@serenity-js/cucumber": "^2.33.4",
+    "@serenity-js/protractor": "^2.33.4",
+    "@serenity-js/serenity-bdd": "^2.33.4",
+    "@types/node": "^16.11.26",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "chromedriver": "^105",
+    "eslint": "^8.12.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^41.0.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "is-ci": "^3.0.1",
+    "npm-failsafe": "^0.4.3",
+    "protractor": "^7.0.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "tslint": "^6.1.3",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^4.6.2"
+  }
+}
