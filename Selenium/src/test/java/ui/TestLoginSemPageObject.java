@@ -15,18 +15,6 @@ class TestLoginSemPageObject {
 
 	private static WebDriver driver;
 	
-	/*
-	@BeforeEach
-	void setUp() throws Exception {
-		driver = WebDriverManager.chromedriver().clearDriverCache().create();
-	}
-	
-	
-	@AfterEach
-	void tearDown() throws Exception {
-		driver.quit();
-	}*/
-	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 		driver = WebDriverManager.chromedriver().clearDriverCache().create();

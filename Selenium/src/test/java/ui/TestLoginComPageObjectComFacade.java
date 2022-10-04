@@ -21,20 +21,6 @@ class TestLoginComPageObjectComFacade {
 	private static LoginFacade loginFacade;
 	private static HomePage homePage;
 	
-	/*
-	@BeforeEach
-	void setUp() throws Exception {
-	
-		driver = WebDriverManager.chromedriver().clearDriverCache().create();
-		loginPage = new LoginPage(driver);
-		loginFacade = new LoginFacade(loginPage);
-	}
-	
-	@AfterEach
-	void tearDown() throws Exception {
-		driver.quit();
-	}*/
-	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 	
