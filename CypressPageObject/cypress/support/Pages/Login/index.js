@@ -24,7 +24,7 @@ class Login{
         switch(item){
             case 'Sauce Labs Backpack':
             aux = 0
-            src = '/static/media/sauce-backpack-1200x1500.34e7aa42.jpg'
+            src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg'
             break
             case 'Sauce Labs Bike Light':
             aux = 1
